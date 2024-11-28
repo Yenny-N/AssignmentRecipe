@@ -1,0 +1,68 @@
+
+:root {
+    --black:#0D0D0D;
+    --grey:#F2F2F2;
+    --teal:#7ABFBF;
+    --light-teal:rgba(122, 191, 191, .5);
+    --red:#EB5428;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+nav a{
+    font-size: 20px;
+}
+
+nav span{
+    font-size: 20px;
+}
+
+menu li{
+    font-size: 20px;
+}
+
+#social li {
+    font-size: 20px;
+}
+
+footer{
+    font-size: 20px;
+}
+
+montserrat
+
+p{
+    font-size: 16px;
+}
+
+dd{
+    font-size: 16px;
+}
+
+li{
+    font-size: 16px;
+}
+
+nav{
+    font-size: 16px;
+}
+
+input{
+    font-size: 16px;
+}
+
+bold
+
+dt{
+    font-size: 16px;
+}
