@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap);
 
 :root {
     --black:#0D0D0D;
@@ -7,62 +8,143 @@
     --red:#EB5428;
 }
 
-h1{
+h1 {
+    font-family: "Bebas Neue", serif;
     font-size: 40px;
+    text-align: center;
+    margin: 0px;
 }
-
-h2{
+h2 {
+    font-family: "Bebas Neue", serif;
     font-size: 30px;
+    text-align: center;
 }
-
-h3{
+h3 {
+    font-family: "Bebas Neue", serif;
     font-size: 25px;
 }
 
-nav a{
-    font-size: 20px;
+html {
+    background-color: var(--light-teal);
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: var(--grey);
+    margin: 0px;
+    padding: 0px;
 }
 
-nav span{
+nav {
+    grid-area: nav;
+    min-width: 414px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px #bbb;
+    position: fixed;
+    top: 0;
+    z-index:5;
+}
+nav a {
+    font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
+nav ul {
+    grid-area: hamberger;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+}
+nav li img {
+    display: none;
+}
+nav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+nav label {
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+}
+nav span {
+    display: block;
+    position: relative;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+}
+nav label svg {
+    display: block;
+}
+label span:before, label span:after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+nav input {
+    display: none;
+}
+nav input:checked ~ ul {
+    max-height: 550px;
+}
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
+
+
 
 menu li{
+    font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
 
 #social li {
+    font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
 
 footer{
+    font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
 
-montserrat
-
 p{
+    font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
 dd{
+    font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
 li{
+    font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
 nav{
+    font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
 input{
+    font-family: "Montserrat", serif;
     font-size: 16px;
-}
+}s
 
-bold
 
 dt{
+    font-family: "Montserrat", serif;
+    font-weight: bold;
     font-size: 16px;
 }
