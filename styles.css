@@ -14,11 +14,13 @@ h1 {
     text-align: center;
     margin: 0px;
 }
+
 h2 {
     font-family: "Bebas Neue", serif;
     font-size: 30px;
     text-align: center;
 }
+
 h3 {
     font-family: "Bebas Neue", serif;
     font-size: 25px;
@@ -29,10 +31,21 @@ html {
     margin: 0px;
     padding: 0px;
 }
+
 body {
     background-color: var(--grey);
     margin: 0px;
     padding: 0px;
+    padding-top: 130px;
+}
+
+main p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#hero img {
+    width: 100%;
 }
 
 nav {
@@ -43,11 +56,15 @@ nav {
     position: fixed;
     top: 0;
     z-index:5;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
 }
+
 nav a {
     font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
+
 nav ul {
     grid-area: hamberger;
     padding: 0;
@@ -56,14 +73,17 @@ nav ul {
     overflow: hidden;
     max-height: 0;
 }
+
 nav li img {
     display: none;
 }
+
 nav li a {
     display: block;
     padding: 20px;
     text-decoration: none;
 }
+
 nav label {
     cursor: pointer;
     display: inline-block;
@@ -72,15 +92,18 @@ nav label {
     bottom: 5px;
     left: 30px;
 }
+
 nav span {
     display: block;
     position: relative;
     font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
+
 nav label svg {
     display: block;
 }
+
 label span:before, label span:after {
     content: '';
     display: block;
@@ -88,63 +111,92 @@ label span:before, label span:after {
     position: absolute;
     width: 100%;
 }
+
 nav input {
     display: none;
 }
+
 nav input:checked ~ ul {
     max-height: 550px;
 }
+
 nav h2 {
     visibility: hidden;
     height: 1px;
     width: 1px;
 }
 
-
-
-menu li{
+menu li {
     font-family: "Bebas Neue", serif;
     font-size: 20px;
 }
 
-#social li {
-    font-family: "Bebas Neue", serif;
-    font-size: 20px;
-}
-
-footer{
-    font-family: "Bebas Neue", serif;
-    font-size: 20px;
-}
-
-p{
+p {
     font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
-dd{
+dd {
     font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
-li{
+li {
     font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
-nav{
+#need {
+    background-color: var(--teal);
+    padding: 20px;
+}
+
+input {
     font-family: "Montserrat", serif;
     font-size: 16px;
 }
 
-input{
-    font-family: "Montserrat", serif;
-    font-size: 16px;
-}s
-
-
-dt{
+dt {
     font-family: "Montserrat", serif;
     font-weight: bold;
     font-size: 16px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+footer img {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+#social ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#social li {
+    display: inline-flex;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 15px;
+}
+
+#social a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
 }
