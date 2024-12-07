@@ -308,3 +308,7 @@ footer span {
     display: flex;
     justify-content: center;
 }
+
+footer h3 {
+    display: none;
+}
