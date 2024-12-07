@@ -36,12 +36,33 @@ body {
     background-color: var(--grey);
     margin: 0px;
     padding: 0px;
-    padding-top: 130px;
+    padding-top: 230px;
 }
 
 main p {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#menu li {
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    align-items: center;
+    color: var(--red);
 }
 
 #hero img {
@@ -126,9 +147,24 @@ nav h2 {
     width: 1px;
 }
 
-menu li {
-    font-family: "Bebas Neue", serif;
-    font-size: 20px;
+#sign-in {
+    position: fixed;
+    top: 15px;
+    right: 0px;
+    color: var(--black);
+}
+
+#logo {
+    display: flex;
+    position: fixed;
+    margin: auto;
+    z-index: 3;
+    top:0%;
+    width: 45%;
+    right: 80px;
+    background-color: var(--red);
+    justify-content: center;
+    height: 77px;
 }
 
 p {
@@ -144,6 +180,7 @@ dd {
 li {
     font-family: "Montserrat", serif;
     font-size: 16px;
+    padding: 5px;
 }
 
 #need {
@@ -156,11 +193,82 @@ input {
     font-size: 16px;
 }
 
+#searchbar {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--red);
+    width: 70%;
+    margin: auto;
+    padding: 1px;
+    top: 150px;
+    left: 10%;
+    right: 10%;
+}
+
+#searchbar input{
+    height: auto;
+    width: 100%;
+}
+
+#searchbar svg {
+   stroke: var(--grey);
+}
+
 dt {
     font-family: "Montserrat", serif;
     font-weight: bold;
     font-size: 16px;
 }
+
+#rice svg {
+    fill: var(--red);
+}
+
+#rice p {
+    display: inline;
+}
+
+#rice {
+    display: inline;
+}
+
+#salsa svg {
+    fill: var(--red);
+}
+
+#salsa p {
+    display: inline;
+}
+
+#salsa {
+    display: inline;
+}
+
+#guacamole svg {
+    fill: var(--red);
+}
+
+#guacamole p {
+    display: inline;
+}
+
+#guacamole {
+    display: inline;
+}
+
+#tortilla svg {
+    fill: var(--red);
+}
+
+#tortilla p {
+    display: inline;
+}
+
+#tortilla {
+    display: inline;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -173,7 +281,7 @@ footer {
 }
 
 footer img {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 20px;
 }
@@ -188,7 +296,7 @@ footer img {
     font-family: "Bebas Neue", serif;
     font-size: 20px;
     list-style: none;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 #social a {
